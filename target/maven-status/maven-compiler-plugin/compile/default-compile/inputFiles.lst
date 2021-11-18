@@ -1,0 +1,9 @@
+/Users/marcte/Documents/_Development/Spring/conference/src/main/java/com/pluralsight/conference/ConferenceApplication.java
+/Users/marcte/Documents/_Development/Spring/conference/src/main/java/com/pluralsight/conference/config/PersistenceConfiguration.java
+/Users/marcte/Documents/_Development/Spring/conference/src/main/java/com/pluralsight/conference/models/Session.java
+/Users/marcte/Documents/_Development/Spring/conference/src/main/java/com/pluralsight/conference/controllers/SpeakerController.java
+/Users/marcte/Documents/_Development/Spring/conference/src/main/java/com/pluralsight/conference/repositories/SpeakerRepository.java
+/Users/marcte/Documents/_Development/Spring/conference/src/main/java/com/pluralsight/conference/repositories/SessionRepository.java
+/Users/marcte/Documents/_Development/Spring/conference/src/main/java/com/pluralsight/conference/controllers/SessionController.java
+/Users/marcte/Documents/_Development/Spring/conference/src/main/java/com/pluralsight/conference/models/Speaker.java
+/Users/marcte/Documents/_Development/Spring/conference/src/main/java/com/pluralsight/conference/controllers/HomeController.java
