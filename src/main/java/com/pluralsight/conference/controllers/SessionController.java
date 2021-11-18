@@ -4,6 +4,7 @@ import com.pluralsight.conference.models.Session;
 import com.pluralsight.conference.repositories.SessionRepository;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
@@ -15,8 +16,12 @@ public class SessionController {
     @Autowired
     private SessionRepository sessionRepository;
 
+    @Value("${spring.datasource.url}")
+    private String databaseURL;
+
     @GetMapping
     public List<Session> list(){
+        System.out.println("databaseURL = " + databaseURL);
         return sessionRepository.findAll();
     }
 
